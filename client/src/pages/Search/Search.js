@@ -50,7 +50,7 @@ class Search extends Component {
     return (
       <div>
         <Jumbotron>
-          <h1 className="display-4">Google Books Search</h1>
+          <h1 className="display-4" id="perfectdisplay">Google Books Search</h1>
           <hr className="my-4" />
           <p className="lead">
             <Link className="btn btn-default btn-lg" to="/" id="Jam1" role="button">New Search</Link>
