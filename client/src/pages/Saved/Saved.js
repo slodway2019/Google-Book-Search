@@ -72,7 +72,7 @@ class Saved extends Component {
           </p>
         </Jumbotron>
         <Container>
-          <h2 id="savedBooks">My Saved Books</h2>
+          <h3 id="savedBooks">My Saved Books</h3>
           <List>
             {this.state.books.map(book => (
               <ListItem key={book._id}>
